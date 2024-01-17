@@ -14,6 +14,11 @@ p {
     width: 70%;
 }
 
+section {
+    padding: 120px;
+}
+
+
 .one {
     background-color: #CBF1F5;
 }
@@ -25,6 +30,19 @@ p {
     background-color: #71C9CE;
 }
 
+.button {
+    background: #DCF5CB;
+    text-decoration: none;
+    padding: 1em 2em;
+    display:inline-block;
+    color: black;
+    border: 2px solid gray;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background: #b0f185;
+}
 
 h1 {
     font-family: 'Lora', serif;
@@ -33,18 +51,18 @@ h1 {
     font-size: 40px
 }
 
-h2 {
-    font-family: 'Lora', serif;
-    text-align: center;
-    color: black;
-}
-
 p {
     font-family: 'Playfair Display', serif;
     text-align: center;
     color: black;
     line-height: 200%;
     font-size: 18px;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: black;
 }
 
 ul,
