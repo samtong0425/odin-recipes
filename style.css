@@ -2,36 +2,54 @@ body{
     background-color: #E3FDFD;
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 50px;
+body, 
+h1,
+h2,
+p {
+    margin:0
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.one {
     background-color: #CBF1F5;
+}
+.two {
+    background-color: #A6E3E9;
+}
+
+.three {
+    background-color: #71C9CE;
+}
+
+
+h1 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: black;
+    font-size: 40px
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    text-align: center;
     color: black;
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
     text-align: center;
-    font-size: 20px;
-    background-color: #71C9CE;
     color: black;
     line-height: 200%;
-}
-
-h2 {
-    background-color: #A6E3E9;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
-    color: black;
+    font-size: 18px;
 }
 
 ul,
 ol {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
     background-color: #71C9CE;
     color: black;
